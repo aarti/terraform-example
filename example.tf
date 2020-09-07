@@ -22,8 +22,8 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
 }
-resource "aws_instance" "example2" {
-  ami           = "ami-0ba60995c1589da9d"
-  instance_type = "t2.micro"
+# resource "aws_instance" "example2" {
+#   ami           = "ami-0ba60995c1589da9d"
+#   instance_type = "t2.micro"
 
-}
+# }
